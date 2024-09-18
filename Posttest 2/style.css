@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #BD4D4C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  position: relative; 
+}
+
+.kode-nuklir {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.kode-nuklir a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.kode-nuklir a:hover {
+  background-color: #555;
+}
+
+.invoice-wrapper {
+  background-color: #FFF2DF;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header p {
+  font-size: 16px;
+  color: #333;
+}
+
+.invoice-box {
+  background-color: #FFF2DF;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.invoice-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.invoice-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.invoice-info p {
+  font-size: 14px;
+  color: #333;
+  flex-basis: calc(50% - 10px);
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.invoice-table th, .invoice-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.invoice-table th {
+  background-color: #bababa;
+}
+
+.invoice-summary {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.payment-info p,
+.total-info p {
+  font-size: 14px;
+  color: #333;
+}
+
+.total-info p {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .invoice-wrapper {
+      padding: 10px;
+  }
+
+  .header h1 {
+      font-size: 20px;
+  }
+
+  .invoice-header h2 {
+      font-size: 18px;
+      padding: 8px;
+  }
+
+  .invoice-info p {
+      flex-basis: 100%;
+      text-align: left;
+  }
+
+  .invoice-summary {
+      flex-direction: column;
+  }
+
+  .payment-info, .total-info {
+      width: 100%;
+      text-align: left;
+  }
+
+  .total-info p {
+      text-align: left;
+  }
+}
