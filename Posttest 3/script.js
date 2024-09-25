@@ -1,4 +1,4 @@
-// Hamburger menu functionality
+// Hamburger menu 
 const hamburger = document.getElementById('hamburger');
 const navbar = document.getElementById('navbar');
 
@@ -6,7 +6,7 @@ hamburger.addEventListener('click', () => {
     navbar.classList.toggle('show');
 });
 
-// Dark Mode Toggle
+// Dark Mode 
 const modeToggle = document.getElementById('mode-toggle');
 const body = document.body;
 
@@ -16,7 +16,7 @@ modeToggle.addEventListener('click', () => {
     modeToggle.textContent = body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
 });
 
-// Pop-up functionality
+// Pop up 
 const popup = document.getElementById('popup');
 const popupBtn = document.getElementById('popup-btn');
 const closeBtn = document.querySelector('.close-btn');
@@ -35,12 +35,12 @@ window.addEventListener('click', (event) => {
     }
 });
 
-// Event listener untuk tombol spesifikasi
+// tombol spek
 const specPopup = document.getElementById('spec-popup');
 const closeSpecBtn = document.querySelector('.close-spec-btn');
 const specDetails = document.getElementById('spec-details');
 
-// Data spesifikasi produk
+// Data spek
 const productSpecs = {
     "acer-orion": `
         <h3>Acer Orion 900</h3>
@@ -92,7 +92,7 @@ const productSpecs = {
     `
 };
 
-// Menampilkan popup spesifikasi saat tombol spesifikasi diklik
+// Menampilkan popup spek
 document.querySelectorAll('.spec-btn').forEach(button => {
     button.addEventListener('click', () => {
         const product = button.getAttribute('data-product');
@@ -101,7 +101,6 @@ document.querySelectorAll('.spec-btn').forEach(button => {
     });
 });
 
-// Menutup popup spesifikasi
 closeSpecBtn.addEventListener('click', () => {
     specPopup.style.display = 'none';
 });
