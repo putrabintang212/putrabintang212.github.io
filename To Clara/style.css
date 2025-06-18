@@ -82,7 +82,7 @@ footer > a {
   transform: translate(-50%, -50%);
   background-color: #ffc765;
   color: black;
-  font-family: 'VT323', monospace;
+  font-family: Chaucer;
   font-size: 24px;
   padding: 12px 28px;
   border: none;
@@ -98,7 +98,7 @@ footer > a {
   font-size: 1.2em;
   margin-top: 20px;
   color: #ffc765;
-  font-family: 'VT323', monospace;
+  font-family: Chaucer;
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.8s ease, transform 0.8s ease;
