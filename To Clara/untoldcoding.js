@@ -1,5 +1,5 @@
 const text =
-  " Hey Yayaa! Ini Aku Aku bikin program kecil ini buat nemenin kamu yang lagi pusing UAS. cuma kepengen aja, karena kepikiran kamu. Mungkin sekarang kamu lagi capek belajar, tapi aku cuma mau bilang kamu hebat! Udah bisa sejauh ini, aku yakin kamu bakal ngelaluin semuanya dengan baik. Semangat terus yaaa!!, jangan lupa istirahat juga, Aku dukung kamu, always ✨.";
+  " Hey Yayaa! Ini Aku. Aku bikin program kecil ini buat nemenin kamu yang lagi pusing UAS. cuma kepengen aja, karena kepikiran kamu. Mungkin sekarang kamu lagi capek belajar, tapi aku cuma mau bilang kamu hebat! Udah bisa sejauh ini, aku yakin kamu bakal ngelaluin semuanya dengan baik. Semangat terus yaaa!!, jangan lupa istirahat juga, Aku dukung kamu, always ✨.";
 
 const paragraph = text.split("");
 let i = 0;
